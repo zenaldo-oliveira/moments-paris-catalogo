@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <title>Catálogo • Moments Paris</title>
+    <meta
+      name="description"
+      content="Catálogo completo de perfumes e cosméticos Moments Paris — inspire-se no luxo e descubra fragrâncias inesquecíveis."
+    />
+
+    <!-- Fonte e Ícone -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="icon"
+      href="https://cdn-icons-png.flaticon.com/512/684/684908.png"
+      type="image/png"
+    />
+
+    <style>
+      :root {
+        --bg: #0d0d11;
+        --card: #181820;
+        --fg: #f9f9fb;
+        --muted: #a8a8b3;
+        --accent: #9a6bff;
+        --accent-glow: #b589ff;
+        --success: #43e97b;
+      }
+
+      * {
+        box-sizing: border-box;
+      }
+
+      body {
+        margin: 0;
+        font-family: "Poppins", system-ui, -apple-system, Segoe UI, Roboto;
+        background: radial-gradient(circle at top, #13131a, #0d0d11 80%);
+        color: var(--fg);
+      }
+
+      .wrap {
+        min-height: 100dvh;
+        display: grid;
+        place-items: center;
+        padding: 24px;
+      }
+
+      .card {
+        width: 100%;
+        max-width: 520px;
+        background: var(--card);
+        border: 1px solid #24242e;
+        border-radius: 22px;
+        padding: 32px;
+        text-align: center;
+        box-shadow: 0 8px 35px rgba(0, 0, 0, 0.4);
+        transition: all 0.3s ease;
+      }
+
+      .card:hover {
+        transform: translateY(-3px);
+        box-shadow: 0 12px 40px rgba(154, 107, 255, 0.15);
+      }
+
+      .logo {
+        font-size: 1.4rem;
+        font-weight: 700;
+        color: var(--accent);
+        letter-spacing: 0.05em;
+      }
+
+      .badge {
+        display: inline-block;
+        padding: 6px 12px;
+        border-radius: 999px;
+        background: #232333;
+        color: #cfcfe8;
+        font-size: 0.8rem;
+        margin-top: 8px;
+      }
+
+      h1 {
+        font-size: 1.8rem;
+        margin: 18px 0 10px;
+      }
+
+      p {
+        color: var(--muted);
+        line-height: 1.6;
+        margin: 0 0 20px;
+      }
+
+      .btn {
+        display: inline-block;
+        width: 100%;
+        padding: 14px 18px;
+        border-radius: 14px;
+        background: var(--accent);
+        color: #fff;
+        font-weight: 600;
+        font-size: 1rem;
+        text-decoration: none;
+        text-align: center;
+        transition: 0.25s all ease;
+      }
+
+      .btn:hover {
+        background: var(--accent-glow);
+        transform: scale(1.03);
+        box-shadow: 0 0 12px rgba(154, 107, 255, 0.5);
+      }
+
+      .btn.secondary {
+        background: #2e2e3a;
+      }
+
+      .btn.secondary:hover {
+        background: #3a3a48;
+      }
+
+      .btn.success {
+        background: var(--success);
+        color: #111;
+      }
+
+      .btn.success:hover {
+        background: #3ddc72;
+        transform: scale(1.05);
+        box-shadow: 0 0 15px rgba(67, 233, 123, 0.5);
+      }
+
+      footer {
+        margin-top: 25px;
+        font-size: 0.8rem;
+        color: var(--muted);
+        text-align: center;
+        border-top: 1px solid #2c2c37;
+        padding-top: 14px;
+      }
+
+      .social {
+        margin-top: 10px;
+      }
+
+      .social a {
+        color: var(--accent);
+        text-decoration: none;
+        margin: 0 8px;
+        font-weight: 600;
+        transition: color 0.25s ease;
+      }
+
+      .social a:hover {
+        color: var(--accent-glow);
+      }
+
+      footer span {
+        display: block;
+        margin-top: 6px;
+        font-size: 0.75rem;
+        color: #777;
+      }
+    </style>
+  </head>
+
+  <body>
+    <main class="wrap">
+      <section class="card">
+        <div class="logo">✨ Moments Paris</div>
+        <span class="badge">Catálogo em PDF</span>
+
+        <h1>Descubra o Luxo em Cada Fragrância</h1>
+        <p>
+          Explore o catálogo completo da Moments Paris — perfumes inspirados nas
+          melhores grifes, com elegância e sofisticação.
+        </p>
+
+        <a
+          class="btn"
+          href="https://drive.google.com/file/d/13-HKq-_jPmceJbRfyZpBsYrVmHHn1Mcl/view?usp=drivesdk"
+          target="_blank"
+          rel="noopener"
+          >📥 Abrir / Baixar Catálogo (PDF)</a
+        >
+
+        <div style="margin-top: 12px">
+          <a
+            class="btn secondary"
+            href="https://wa.me/5565992832422"
+            target="_blank"
+            rel="noopener"
+            >💬 Falar no WhatsApp</a
+          >
+        </div>
+
+        <!-- Seção de recrutamento -->
+        <div style="margin-top: 20px">
+          <h2
+            style="font-size: 1.3rem; color: var(--accent); margin-bottom: 8px"
+          >
+            💼 Seja um Revendedor Moments Paris
+          </h2>
+          <p
+            style="font-size: 0.9rem; color: var(--muted); margin-bottom: 14px"
+          >
+            Faça parte da franquia que mais cresce no Brasil! Trabalhe com
+            produtos de luxo, tenha ganhos reais e liberdade financeira.
+            Cadastre-se agora e comece seu negócio próprio!
+          </p>
+          <a
+            class="btn success"
+            href="https://office.momentsparis.com.br/#/register/naldooliver"
+            target="_blank"
+            rel="noopener"
+            >🚀 Quero Ser um Revendedor</a
+          >
+        </div>
+
+        <footer>
+          💡 Dica: salve este link nos atalhos do WhatsApp Business para enviar
+          rapidamente a seus clientes.
+          <div class="social">
+            📞
+            <a href="https://wa.me/5565992832422" target="_blank">WhatsApp</a>
+            | 📸
+            <a
+              href="https://www.instagram.com/zenaloeana.momentsparis"
+              target="_blank"
+              >Instagram</a
+            >
+          </div>
+          <span
+            >© 2025 Franquia <b>@zenaloeana.momentsparis</b> • Cuiabá • Todos os
+            direitos reservados.</span
+          >
+        </footer>
+      </section>
+    </main>
+  </body>
+</html>
